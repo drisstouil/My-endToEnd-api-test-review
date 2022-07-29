@@ -7,7 +7,7 @@ public class TestRunner {
 
     public Karate runTest() {
         return Karate.run("classpath:features")
-                .tags("endToEnd");
+                .tags("smoke");
     }
 
 }
